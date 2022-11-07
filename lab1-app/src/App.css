@@ -10,7 +10,8 @@
 }
 
 .header {
-  height: 500px;
+  min-height: 500px;
+  text-align: left;
   background-color: rgb(27, 27, 58);
 }
 
@@ -25,16 +26,32 @@
   width: 60px;
 }
 
-.h1-header {
-  font-size: 5rem;
+.h1-header, .p-header {
   color: white;
   text-align: left;
+  width: 500px;
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+  padding-left: 60px;
+}
+
+.h1-header {
+  font-size: 5rem;
 }
 
 .p-header {
-  font-size: 2rem;
-  color: white;
+  font-size: 1.5rem;
+}
+
+.btn-header {
   text-align: left;
+  font-weight: bolder;
+  background-color: white;
+  color: #282c34;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin: 60px;
 }
 
 
@@ -42,16 +59,14 @@
   display: flex;
   justify-content: space-evenly;
   background-color: white;
-  border: 1px solid red;
 }
 
 .feature {
   display: block;
   text-align: left;
-  margin: 20px;
+  margin: 10px;
   min-width: 20vw;
   background-color: white;
-  border: 1px solid green;
 
 }
 
