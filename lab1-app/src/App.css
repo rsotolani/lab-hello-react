@@ -1,17 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+  font-family: 'Roboto', 'sans-serif';
+}
 .App {
   text-align: center;
-  width: 70vw;
+  width: 90vw;
   margin: 0% auto;
+
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  height: 500px;
   background-color: rgb(27, 27, 58);
 }
-.logo {
-  width: 50px;
+
+.topo {
+  display: flex;
+  justify-content: space-between;
 }
+
+
+
+.logo {
+  width: 60px;
+}
+
+.h1-header {
+  font-size: 5rem;
+  color: white;
+  text-align: left;
+}
+
+.p-header {
+  font-size: 2rem;
+  color: white;
+  text-align: left;
+}
+
 
 .features {
   display: flex;
@@ -24,7 +49,7 @@
   display: block;
   text-align: left;
   margin: 20px;
-  min-width: 25%;
+  min-width: 20vw;
   background-color: white;
   border: 1px solid green;
 
